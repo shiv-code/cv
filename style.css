@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    padding: 7%;
+    background-color: chocolate;
+}
+
+#profile{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    margin: 0 auto;
+    background-color: aqua;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3%;    
+}
+
+.education{
+    margin: 0 auto;
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+li{
+    margin: 0 auto;
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.project{
+    margin: 0 auto;
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3%;
+    box-sizing: border-box;
+}
