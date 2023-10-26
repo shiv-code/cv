@@ -4,47 +4,124 @@
 }
 
 main{
-    padding: 7%;
-    background-color: chocolate;
+    padding: 2% 7%;
+    background:#e0e0e0;
+    /* background-image: url("images/pattern.svg"); */
+}
+
+.container{
+    margin: 5% 0;
+    padding: 1% 2% 3%;
+    background-color:burlywood;
+
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
 }
 
 #profile{
     height: 300px;
     width: 300px;
     position: relative;
-    margin: 0 auto;
-    background-color: aqua;
-    border-radius: 5px;
+    margin: 3% auto;
     text-align: center;
     padding: 3%;    
+
+
+    border-radius: 20px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  15px 15px 20px #cacaca,
+                -15px -15px 20px #f6f6f6;
+}
+.shiv-info{
+    margin-bottom: 5%;
+}
+.icon-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    flex-wrap: wrap;
+
+}
+.icon{
+    height: 30px;
+    width: 30px;
 }
 
+.education-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
 .education{
     margin: 0 auto;
     display: inline-block;
-    background-color: aqua;
     border-radius: 5px;
     text-align: center;
-    padding: 3%;
     box-sizing: border-box;
 }
 
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 li{
-    margin: 0 auto;
+    height: 50px;
+    width: 200px;
+    margin: 1%;
     display: inline-block;
-    background-color: aqua;
-    border-radius: 5px;
+    /* background-color: whitesmoke; */
+    /* border-radius: 5px; */
     text-align: center;
-    padding: 3%;
+    padding: 1%;
     box-sizing: border-box;
+
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #a8a8a8,
+                inset -5px -5px 10px #ffffff;
+}
+li img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
 }
 
+
+.project-container{
+    display: flex;
+}
 .project{
-    margin: 0 auto;
+    margin: 1%;
     display: inline-block;
-    background-color: aqua;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     padding: 3%;
     box-sizing: border-box;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+.project p{
+    text-align: justify;
+    margin: 1%;
+}
+
+
+.pe-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pe{
+    padding: 1%;
+    text-align: center;
+
+}
+footer{
+    text-align: center;
+    background-color: #386641;
+    padding: 1%;
+    color: #fff;
 }

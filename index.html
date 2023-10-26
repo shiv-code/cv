@@ -4,135 +4,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/book-open-solid.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Shiv Kant Mani</title>
 </head>
 <body>
 <main>
-    <div id="profile">
+    <div id="profile" class="contain">
         <img src="images/shivkant.png" alt="shiv-kant-mani_image" height="150" width="150">
-        <h1>Shiv Kant Mani</h1>
-        <p>Software Developer | Full-stack Developer</p>
-        <p>mail:shivkantmani12@gmail.com</p>
-        <p>contact:7374986949</p>
-        <p>DOB:12 Nov 2023</p>
-        <p>LinkedIN:</p>
-        <p>Github:</p>
+        <div class="shiv-info">
+            <h1>Shiv Kant Mani</h1>
+            <p>Software Developer | Full-stack Developer</p>
+            <p>DOB: 12 Nov 2000</p>
+        </div>
+        
+        <div class="icon-container">
+            <a href="mailto:shivkantmani12@gmail.com"><img src="images\envelope-solid.svg" alt="" class="icon"></a>
+            <a href="https://www.linkedin.com/in/shiv-kant-mani/"><img src="images/linkedin.svg" alt="" class="icon"></a>
+            <a href="https://github.com/shivkantmani/"><img src="images/github.svg" alt="" class="icon"></a>
+        </div>        
+    </div>
+    
+
+    <div id="education" class="container">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education">
+                <h4>SRM Institute of Science and Technology</h4>
+                <em>Computer Science Engineering</em>
+            </div>
+            <div class="education">
+                <h4>Bihar Public School</h4>
+                <em>Senior Secondary Education</em>
+            </div>
+            <div class="education">
+                <h4>DAV Public School</h4>
+                <em>Secondary Education</em>
+            </div>
+        </div>
     </div>
     
 
 
-    <div id="education">
-        <h2>Education</h2>
-        <div class="education">
-            <h4>SRM Institute of Science and Technology</h4>
-            <em>Computer Science Engineering</em>
-        </div>
-        <div class="education">
-            <h4>Bihar Public School</h4>
-        </div>
-        <div class="education">
-            <h4>DAV Public School</h4>
-        </div>
-    </div>
-
-
-
-    <div>
-        <!-- Skills -->
+    <div id="skills" class="container">
         <h2>Skills</h2>
-        <ul>
-            <li>C</li>
-            <li>C++</li>
-            <li>Data Structure</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Bootstrap</li>
-            <li>JQuery</li>
-            <li>EJS</li>
-            <li>NodeJs</li>
-            <li>ExpressJs</li>
-            <li>ReactJs</li>
-            <li>MySQL</li>
-            <li>Django</li>
-            <li>Python</li>
-        </ul>
+        <div> 
+            <ul>
+                <li><img src="images/c-1.svg" alt="">C</li>
+                <li><img src="images/c++.svg" alt="">C++</li>
+                <li><img src="images/data-studio.svg" alt="">Data Structure</li>
+                <li><img src="images/html5.svg" alt="">HTML</li>
+                <li><img src="images/css3-alt.svg" alt="">CSS</li>
+                <li><img src="images/square-js.svg" alt="">JavaScript</li>
+                <li><img src="images/bootstrap.svg" alt="">Bootstrap</li>
+                <li><img src="images/jquery.svg" alt="">JQuery</li>
+                <li><img src="images/ejs.svg" alt="">EJS</li>
+                <li><img src="images/node.svg" alt="">NodeJs</li>
+                <li><img src="images/express-js.svg" alt="">ExpressJs</li>
+                <li><img src="images/react.svg" alt="">ReactJs</li>
+                <li><img src="images/mysql.svg" alt="">MySQL</li>
+                <li><img src="images/django.svg" alt="">Django</li>
+                <li><img src="images/python.svg" alt="">Python</li>
+            </ul>
+        </div>
     </div>
+    
 
 
-
-    <div>
-        <!-- Courses -->
-        <h2>Courses</h2>
+    <div id="course" class="container">
+        <h2>Courses</h2>        
         <ul>
             <li>Database Management System - DBMS</li>
             <li>Operating Systems</li>
         </ul>
     </div>
+    
 
 
-
-    <div>
+    <div id="project" class="container">
         <!-- Projects -->
         <h2>Projects</h2>
-        <div class="project">
-            <strong>SuperMarket</strong>
-            <em>Full-stack</em>
-            <p>
-                An e-commerce project utilizing a range of front-end and back-end technologies. The project incorporates HTML, CSS,
-                JavaScript, and Bootstrap to create a sleek and user-friendly interface for customers to browse and purchase products
-                from three different categories: electronics, grocery, and fashion.
-                To handle the back-end functionalities of the e-commerce platform, I utilized the Django framework. This allowed for
-                efficient management of the database, user authentication, and order processing.
-                Throughout the development process, I focused on creating a responsive design that adapts to various screen sizes and
-                devices.
-            </p>
+        <div class="project-container">
+            <div class="project">
+                <strong>SuperMarket</strong>
+                <em>Full-stack</em>
+                <p>
+                    An e-commerce project utilizing a range of front-end and back-end technologies. The project incorporates HTML, CSS,
+                    JavaScript, and Bootstrap to create a sleek and user-friendly interface for customers to browse and purchase products
+                    from three different categories: electronics, grocery, and fashion.
+                    To handle the back-end functionalities of the e-commerce platform, I utilized the Django framework. This allowed for
+                    efficient management of the database, user authentication, and order processing.
+                    Throughout the development process, I focused on creating a responsive design that adapts to various screen sizes and
+                    devices.
+                </p>
+            </div>
+            
+            <div class="project">
+                <strong>tindog</strong>
+                <em>front-end</em>
+                <p>
+                    A user-friendly dating website for dogs involves integrating HTML, CSS, JavaScript and Bootstrap for a polished
+                    homepage. This platform will facilitate canine connections with an intuitive design, ensuring a delightful and engaging
+                    experience for both dog owners and their furry companions.
+                </p>
+            </div>
+            
+            <div class="project">
+                <strong>Skin Neuro</strong>
+                <em>Full-stack</em>
+                <p>
+                    "The Skin Neuro Project is leveraging the power of EfficientNet B0 and YOLO v3 models for accurate and swift
+                    identification of skin conditions. Developed using Flask as the framework, this application seamlessly integrates advanced
+                    AI algorithms to analyze skin images. Users can upload photos for instant, reliable diagnoses, enhancing healthcare
+                    accessibility and efficiency."
+                </p>
+            </div>
         </div>
-        
-        <div class="project">
-            <strong>tindog</strong>
-            <em>front-end</em>
-            <p>
-                A user-friendly dating website for dogs involves integrating HTML, CSS, JavaScript and Bootstrap for a polished
-                homepage. This platform will facilitate canine connections with an intuitive design, ensuring a delightful and engaging
-                experience for both dog owners and their furry companions.
-            </p>
-        </div>
-        
-        <div class="project">
-            <strong>Skin Neuro</strong>
-            <em>Full-stack</em>
-            <p>
-                "The Skin Neuro Project is leveraging the power of EfficientNet B0 and YOLO v3 models for accurate and swift
-                identification of skin conditions. Developed using Flask as the framework, this application seamlessly integrates advanced
-                AI algorithms to analyze skin images. Users can upload photos for instant, reliable diagnoses, enhancing healthcare
-                accessibility and efficiency."
-            </p>
-        </div>        
+                
     </div>
 
 
 
-    <div>
+    <div id="pe" class="container">
         <h3>Professional Experience</h3>
-        <ul>
-            <li>
-                <strong>All Society PR Head</strong>
+        <div class="pe-container">
+            <div class="pe">
+                <strong>All Society PR Head</strong><br>
                 <em>Youth India Foundation</em>
                 <p>May 2021 - Sep 2021</p>
-            </li>
-            <li>
-                <strong>PR Member</strong>
+            </div>
+            <div class="pe">
+                <strong>PR Member</strong><br>
                 <em>Youth India Foundation</em>
                 <p>Sep 2020 - Aug 2021</p>
-            </li>
-            <li>
-                <strong>Committee Member</strong>
+            </div>
+            <div class="pe">
+                <strong>Committee Member</strong><br>
                 <em>Aaruush</em>
                 <p>Apr 2020 - Aug 2021</p>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
 </main>
     
@@ -141,7 +152,7 @@
     <a href="contact.html">Contact me</a> -->
 
 <footer>
-    <p>Made By Shiv Kant MAni</p>
+    <p>Made By Shiv Kant Mani</p>
     <p>Copyright 2023</p>
 </footer>
 
